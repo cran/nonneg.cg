@@ -1,10 +1,10 @@
-402758b92ef792896e0d346fff54eabf *DESCRIPTION
+c91f48d832bf77519b5a32be017299ab *DESCRIPTION
 229f64c9d55b089990d7f02850c1ced1 *LICENSE
 be95d3f2ded0bfaa15e797ea211d8e78 *NAMESPACE
 1128e51b63983161ef833265e8aa06f4 *R/RcppExports.R
-238cfc9f2f281f14f9d198c86003a4e5 *R/minimize.R
-5309c36c49bed9430254cac9fd6b033e *man/minimize.nonneg.cg.Rd
-0839edb647ee9f771c8bc06395154725 *src/Makevars
+2010993e0f07f63f976099f9c44ff658 *R/minimize.R
+ee2320f83d24d4c23627357a5245d175 *man/minimize.nonneg.cg.Rd
+5cc9c8afca9572f22df5107b88d7dfbb *src/Makevars
 12889060400df01d648e427483e5aacb *src/RcppExports.cpp
-6ddaff86400be05699085e5fe54a70ab *src/nonnegcg.c
-a87b64603c66fdb05c96c288fa619bb1 *src/rwrapper.cpp
+667d9931d17ea77d7aaadec120b22335 *src/nonnegcg.c
+78006e6dfa5c822b0073ea5dc479ae79 *src/rwrapper.cpp
