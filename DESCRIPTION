@@ -1,8 +1,8 @@
 Package: nonneg.cg
 Type: Package
 Title: Non-Negative Conjugate-Gradient Minimizer
-Version: 0.1.5
-Date: 2019-09-03
+Version: 0.1.6
+Date: 2019-09-04
 Author: David Cortes
 Maintainer: David Cortes <david.cortes.rivera@gmail.com>
 URL: https://github.com/david-cortes/nonneg_cg
@@ -15,6 +15,6 @@ Imports: Rcpp (>= 0.12.19)
 LinkingTo: Rcpp
 RoxygenNote: 6.1.1
 NeedsCompilation: yes
-Packaged: 2019-09-03 17:49:53 UTC; david
+Packaged: 2019-09-04 06:08:18 UTC; david
 Repository: CRAN
-Date/Publication: 2019-09-03 18:40:07 UTC
+Date/Publication: 2019-09-05 04:40:07 UTC
