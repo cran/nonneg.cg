@@ -50,10 +50,11 @@
 #ifdef _FOR_PYTHON
 	#include "findblas.h"
 #elif defined(_FOR_R)
+	#include <R_ext/RS.h>
 	#include <R_ext/BLAS.h>
-	double cblas_ddot(int n, double *x, int incx, double *y, int incy) { return ddot_(&n, x, &incx, y, &incy); }
-	void cblas_daxpy(int n, double a, double *x, int incx, double *y, int incy) { daxpy_(&n, &a, x, &incx, y, &incy); }
-	void cblas_dscal(int n, double alpha, double *x, int incx) { dscal_(&n, &alpha, x, &incx); }
+	double cblas_ddot(int n, double *x, int incx, double *y, int incy) { return F77_CALL(ddot)(&n, x, &incx, y, &incy); }
+	void cblas_daxpy(int n, double a, double *x, int incx, double *y, int incy) { F77_CALL(daxpy)(&n, &a, x, &incx, y, &incy); }
+	void cblas_dscal(int n, double alpha, double *x, int incx) { F77_CALL(dscal)(&n, &alpha, x, &incx); }
 #else
 	#include "blasfuns.h"
 #endif
